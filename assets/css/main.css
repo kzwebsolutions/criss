@@ -28,7 +28,9 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
-
+.video{
+	height: 550px;
+}
 body {
 	line-height: 1;
 }
@@ -502,7 +504,7 @@ input, select, textarea {
 				}
 
 		@media screen and (min-width: 961px) and (max-width: 1880px) {
-
+			
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1237,7 +1239,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 960px) {
-
+			.video{
+				height: 300px;
+			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
